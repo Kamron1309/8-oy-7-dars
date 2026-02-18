@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "react": "^18",
@@ -39,5 +40,9 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "^14"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
   }
 }
