@@ -30,8 +30,7 @@ export default function AdminsPage() {
   useEffect(() => {
     const fetchAdmins = async () => {
       try {
-        const res = await getAllAdmins();
-        const data = Array.isArray(res.data) ? res.data : Array.isArray(res.data?.data) ? res.data.data : [];
+        const data = await getAllAdmins();
         setAdmins(data);
         setFilteredAdmins(data);
       } catch (err) {

@@ -23,7 +23,7 @@ export default function CourseCard({ course }: CourseCardProps) {
             : 'bg-gradient-to-br from-[#0F172A] to-[#1E293B]'
         }
         shadow-[0_10px_30px_rgba(0,0,0,0.6)]
-        transition-all duration-[350ms] ease-in-out
+        transition-all duration-300 ease-in-out
         hover:translate-y-[-8px] hover:scale-[1.02]
         hover:shadow-[0_20px_45px_rgba(0,0,0,0.8)]
       `}
